@@ -13,3 +13,18 @@ Run tests with `sbt test`
 Run `sbt run`
 
 An interactive shell lets you try out the algorithm manually
+
+```
+Hey, gimme the submit date and the time the task will take
+Enter empty line to QUIT
+
+Usage:
+  SUBMIT_DATE, TURNAROUND_TIME => DUE_DATE
+
+e.g.
+
+  > 2016-12-16T10:31:00, 4d 3h
+  2016-12-22T13:31:00
+
+>
+```
